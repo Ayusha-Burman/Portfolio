@@ -1,0 +1,106 @@
+html {
+ margin: 0px;
+ padding: 0;
+ }
+.navbar-nav
+{
+ margin-left: 90px;
+ position: fixed;
+}
+.nav-item
+{
+    margin-right: 200px;
+}
+
+.nav-item a
+{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+ .container-fluid
+ {
+   margin-top: -20px;
+    /* background-color: rgb(205, 104, 223); */
+ }
+ .whole-top img
+ {
+ /* background-image: url('image1.jpg');
+ background-repeat: no-repeat;
+ background-size: 1490px 1000px;
+ background-blend-mode: lighten ; */
+ opacity: 0.8;
+ position: absolute;
+ height:500px;
+ width: 1500px;
+ z-index: -2;
+ }
+ @media(max-width: 600px) { 
+  .photo img { 
+    display: none; 
+  }
+}
+ .photo
+ {
+   opacity: 1;
+   position: relative;
+   margin-left: 60px;
+   margin-top: 50px;
+   width: 400px;
+   z-index: -1;
+   
+ }
+ .bio h1
+ {
+    position: relative;
+    margin-top: -500px;
+    margin-right: 250px;
+    margin-left: -50px;
+    float:right;
+    width: 700px;
+    align-items: center;
+ }
+ .bio
+ {
+    width: 50%;
+    
+    position: relative;
+    float:right;
+ }
+ .bio h5
+ {
+  position: relative;
+    
+   margin-top: -400px;
+   margin-left: -230px;
+   color: black;
+ }
+ .bio p
+ {
+   margin-top: 30px;
+   margin-left: -230px;
+   font-weight: 500;
+   font-size:20px;
+ }
+ .bio ul
+ {
+   margin-top: 20px;
+   margin-left: -260px;
+   font-weight: 500;
+   font-size:20px;
+ }
+ .bio a{
+  color: black;
+ }
+ .intro
+ {
+
+  float:left;
+  position: relative;
+ }
+ .intro h2
+ {
+  margin-top: 50px;
+  margin-left: 20px;
+ }
